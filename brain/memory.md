@@ -5002,3 +5002,12 @@
 }
 ```
 ---
+
+## [2026-10-03T20:31:53.317035] Cycle 557: CycleResult.REJECTED
+```json
+{
+  "proposal": "One-Sided Question Detector",
+  "skill": "one_sided_question_detector"
+}
+```
+---
