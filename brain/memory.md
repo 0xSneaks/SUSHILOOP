@@ -5029,3 +5029,12 @@
 }
 ```
 ---
+
+## [2026-10-04T16:21:18.067777] Cycle 560: CycleResult.REJECTED
+```json
+{
+  "proposal": "Fabricated Citation Flagger",
+  "skill": "fabricated_citation_flagger"
+}
+```
+---
