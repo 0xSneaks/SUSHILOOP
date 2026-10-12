@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/neon-banner.svg" alt="SUSHILOOP" width="100%">
+</p>
+
 # 🍣 SUSHILOOP
 
 **Self-improving AI Guardrail Engine — autonomously generating safety skills to protect human cognition in the AI era.**
