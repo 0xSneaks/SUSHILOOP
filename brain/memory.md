@@ -5263,3 +5263,12 @@
 }
 ```
 ---
+
+## [2026-10-13T00:04:33.558819] Cycle 586: CycleResult.REJECTED
+```json
+{
+  "proposal": "Deliberation-Pace Nudger",
+  "skill": "deliberation_pace_nudger"
+}
+```
+---
