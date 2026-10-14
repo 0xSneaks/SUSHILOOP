@@ -5290,3 +5290,12 @@
 }
 ```
 ---
+
+## [2026-10-14T03:17:54.286508] Cycle 589: CycleResult.REJECTED
+```json
+{
+  "proposal": "One-Sided Question Detector",
+  "skill": "one_sided_question_detector"
+}
+```
+---
