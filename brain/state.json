@@ -1,37 +1,10 @@
 {
-  "cycle_count": 604,
-  "total_skills": 93,
+  "cycle_count": 605,
+  "total_skills": 92,
   "success_count": 106,
   "failure_count": 8,
-  "last_run": "2026-10-17T20:00:19.721995",
+  "last_run": "2026-10-18T02:46:42.423448",
   "history": [
-    {
-      "cycle_number": 505,
-      "proposal": {
-        "id": "161eda3d-cb70-4a26-a433-710c3e38f768",
-        "proposal_type": "NEW_SKILL",
-        "category": "OUTPUT_FILTERING",
-        "title": "Unhedged Medical/Legal Claim Filter",
-        "description": "Flags AI output giving medical or legal directives without a verify-with-a-professional caveat",
-        "rationale": "Directive high-stakes advice invites cognitive surrender",
-        "success_criteria": [
-          "Catches the target pattern",
-          "Returns reason + confidence",
-          "Low false-positive rate"
-        ],
-        "tests_required": [
-          "auto"
-        ],
-        "estimated_complexity": 5,
-        "rollback_plan": "Delete file from skills/",
-        "created_at": "2026-09-20T03:05:26.508364"
-      },
-      "result": "REJECTED",
-      "skill_generated": "unhedged_medicallegal_claim_filter",
-      "test_results": [],
-      "timestamp": "2026-09-20T03:05:26.508610",
-      "error_message": null
-    },
     {
       "cycle_number": 506,
       "proposal": {
@@ -2703,6 +2676,33 @@
       "skill_generated": "indirect_identifier_combiner",
       "test_results": [],
       "timestamp": "2026-10-17T20:00:19.721995",
+      "error_message": null
+    },
+    {
+      "cycle_number": 605,
+      "proposal": {
+        "id": "412eea10-a2c2-4e72-9ecf-192bce860a04",
+        "proposal_type": "NEW_SKILL",
+        "category": "BIAS_DETECTION",
+        "title": "One-Sided Question Detector",
+        "description": "Detects questions that ask only for support for a position and prompts a steelman of the opposing view",
+        "rationale": "Single-sided queries entrench priors",
+        "success_criteria": [
+          "Catches the target pattern",
+          "Returns reason + confidence",
+          "Low false-positive rate"
+        ],
+        "tests_required": [
+          "auto"
+        ],
+        "estimated_complexity": 5,
+        "rollback_plan": "Delete file from skills/",
+        "created_at": "2026-10-18T02:46:42.423135"
+      },
+      "result": "REJECTED",
+      "skill_generated": "one_sided_question_detector",
+      "test_results": [],
+      "timestamp": "2026-10-18T02:46:42.423448",
       "error_message": null
     }
   ]

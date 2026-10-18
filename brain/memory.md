@@ -5434,3 +5434,12 @@
 }
 ```
 ---
+
+## [2026-10-18T02:46:43.021933] Cycle 605: CycleResult.REJECTED
+```json
+{
+  "proposal": "One-Sided Question Detector",
+  "skill": "one_sided_question_detector"
+}
+```
+---
