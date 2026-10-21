@@ -1,37 +1,10 @@
 {
-  "cycle_count": 616,
-  "total_skills": 93,
+  "cycle_count": 617,
+  "total_skills": 92,
   "success_count": 106,
   "failure_count": 8,
-  "last_run": "2026-10-21T03:04:12.320319",
+  "last_run": "2026-10-21T11:02:56.011189",
   "history": [
-    {
-      "cycle_number": 517,
-      "proposal": {
-        "id": "bf59bb60-6eff-49e1-b23d-51ecc06cf41b",
-        "proposal_type": "NEW_SKILL",
-        "category": "CONTENT_SAFETY",
-        "title": "Self-Harm Routing Guard",
-        "description": "Detects distress signals and ensures the path to human/professional support is surfaced, never replaced by the model",
-        "rationale": "A model must scaffold, not substitute, real support",
-        "success_criteria": [
-          "Catches the target pattern",
-          "Returns reason + confidence",
-          "Low false-positive rate"
-        ],
-        "tests_required": [
-          "auto"
-        ],
-        "estimated_complexity": 5,
-        "rollback_plan": "Delete file from skills/",
-        "created_at": "2026-09-23T03:01:59.424969"
-      },
-      "result": "REJECTED",
-      "skill_generated": "self_harm_routing_guard",
-      "test_results": [],
-      "timestamp": "2026-09-23T03:01:59.425197",
-      "error_message": null
-    },
     {
       "cycle_number": 518,
       "proposal": {
@@ -2703,6 +2676,33 @@
       "skill_generated": "effortless_answer_warner",
       "test_results": [],
       "timestamp": "2026-10-21T03:04:12.320319",
+      "error_message": null
+    },
+    {
+      "cycle_number": 617,
+      "proposal": {
+        "id": "7ba1409d-9530-4526-8564-ccf1ff54bacd",
+        "proposal_type": "NEW_SKILL",
+        "category": "OUTPUT_FILTERING",
+        "title": "Unhedged Medical/Legal Claim Filter",
+        "description": "Flags AI output giving medical or legal directives without a verify-with-a-professional caveat",
+        "rationale": "Directive high-stakes advice invites cognitive surrender",
+        "success_criteria": [
+          "Catches the target pattern",
+          "Returns reason + confidence",
+          "Low false-positive rate"
+        ],
+        "tests_required": [
+          "auto"
+        ],
+        "estimated_complexity": 5,
+        "rollback_plan": "Delete file from skills/",
+        "created_at": "2026-10-21T11:02:56.011082"
+      },
+      "result": "REJECTED",
+      "skill_generated": "unhedged_medicallegal_claim_filter",
+      "test_results": [],
+      "timestamp": "2026-10-21T11:02:56.011189",
       "error_message": null
     }
   ]
