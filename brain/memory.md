@@ -5668,3 +5668,12 @@
 }
 ```
 ---
+
+## [2026-10-24T20:06:45.916073] Cycle 631: CycleResult.REJECTED
+```json
+{
+  "proposal": "Re-ask Loop Breaker",
+  "skill": "re_ask_loop_breaker"
+}
+```
+---
