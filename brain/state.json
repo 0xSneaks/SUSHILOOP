@@ -1,37 +1,10 @@
 {
-  "cycle_count": 645,
+  "cycle_count": 646,
   "total_skills": 92,
   "success_count": 106,
   "failure_count": 8,
-  "last_run": "2026-10-28T18:17:31.812509",
+  "last_run": "2026-10-29T04:05:26.087068",
   "history": [
-    {
-      "cycle_number": 546,
-      "proposal": {
-        "id": "d6d95730-396d-4852-b174-b3a31faec4bf",
-        "proposal_type": "NEW_SKILL",
-        "category": "VERIFICATION_PROMPT",
-        "title": "Actionable-Step Verifier",
-        "description": "When output contains concrete steps the user will act on, injects a short 'verify these before acting' checkpoint",
-        "rationale": "A verification beat is the antidote to ask-accept-move-on",
-        "success_criteria": [
-          "Catches the target pattern",
-          "Returns reason + confidence",
-          "Low false-positive rate"
-        ],
-        "tests_required": [
-          "auto"
-        ],
-        "estimated_complexity": 5,
-        "rollback_plan": "Delete file from skills/",
-        "created_at": "2026-09-30T21:48:13.956474"
-      },
-      "result": "REJECTED",
-      "skill_generated": "actionable_step_verifier",
-      "test_results": [],
-      "timestamp": "2026-09-30T21:48:13.956690",
-      "error_message": null
-    },
     {
       "cycle_number": 547,
       "proposal": {
@@ -2703,6 +2676,33 @@
       "skill_generated": "self_harm_routing_guard",
       "test_results": [],
       "timestamp": "2026-10-28T18:17:31.812509",
+      "error_message": null
+    },
+    {
+      "cycle_number": 646,
+      "proposal": {
+        "id": "8a1e3953-8863-47f2-9116-251bf54f570f",
+        "proposal_type": "NEW_SKILL",
+        "category": "OUTPUT_FILTERING",
+        "title": "Fabricated Citation Flagger",
+        "description": "Flags AI output that cites sources, DOIs, or case names in a format that is plausible but unverifiable",
+        "rationale": "Invented citations are the highest-trust hallucination",
+        "success_criteria": [
+          "Catches the target pattern",
+          "Returns reason + confidence",
+          "Low false-positive rate"
+        ],
+        "tests_required": [
+          "auto"
+        ],
+        "estimated_complexity": 5,
+        "rollback_plan": "Delete file from skills/",
+        "created_at": "2026-10-29T04:05:26.086865"
+      },
+      "result": "REJECTED",
+      "skill_generated": "fabricated_citation_flagger",
+      "test_results": [],
+      "timestamp": "2026-10-29T04:05:26.087068",
       "error_message": null
     }
   ]
