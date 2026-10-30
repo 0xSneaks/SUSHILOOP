@@ -5839,3 +5839,12 @@
 }
 ```
 ---
+
+## [2026-10-30T12:01:29.909918] Cycle 650: CycleResult.REJECTED
+```json
+{
+  "proposal": "Deliberation-Pace Nudger",
+  "skill": "deliberation_pace_nudger"
+}
+```
+---
