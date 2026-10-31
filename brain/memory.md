@@ -5866,3 +5866,12 @@
 }
 ```
 ---
+
+## [2026-10-31T11:36:26.136290] Cycle 653: CycleResult.REJECTED
+```json
+{
+  "proposal": "One-Sided Question Detector",
+  "skill": "one_sided_question_detector"
+}
+```
+---
